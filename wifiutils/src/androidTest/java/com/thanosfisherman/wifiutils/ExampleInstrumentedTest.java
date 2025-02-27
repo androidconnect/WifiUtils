@@ -1,4 +1,4 @@
-package com.thanosfisherman.wifiutils;
+package com.androidconnect.wifiutils;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getContext();
 
-        assertEquals("com.thanosfisherman.wifiutils.test", appContext.getPackageName());
+        assertEquals("com.androidconnect.wifiutils.test", appContext.getPackageName());
     }
 }

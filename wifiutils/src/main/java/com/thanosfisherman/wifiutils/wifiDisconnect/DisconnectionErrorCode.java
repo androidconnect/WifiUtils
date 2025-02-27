@@ -1,4 +1,4 @@
-package com.thanosfisherman.wifiutils.wifiDisconnect;
+package com.androidconnect.wifiutils.wifiDisconnect;
 
 public enum DisconnectionErrorCode {
     COULD_NOT_GET_WIFI_MANAGER,

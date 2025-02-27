@@ -1,4 +1,4 @@
-package com.thanosfisherman.wifiutils.sample
+package com.androidconnect.wifiutils.sample
 
 import android.Manifest
 import android.content.Context
@@ -9,14 +9,14 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
-import com.thanosfisherman.wifiutils.TypeEnum
-import com.thanosfisherman.wifiutils.WifiUtils
-import com.thanosfisherman.wifiutils.wifiConnect.ConnectionErrorCode
-import com.thanosfisherman.wifiutils.wifiConnect.ConnectionSuccessListener
-import com.thanosfisherman.wifiutils.wifiDisconnect.DisconnectionErrorCode
-import com.thanosfisherman.wifiutils.wifiDisconnect.DisconnectionSuccessListener
-import com.thanosfisherman.wifiutils.wifiRemove.RemoveErrorCode
-import com.thanosfisherman.wifiutils.wifiRemove.RemoveSuccessListener
+import com.androidconnect.wifiutils.TypeEnum
+import com.androidconnect.wifiutils.WifiUtils
+import com.androidconnect.wifiutils.wifiConnect.ConnectionErrorCode
+import com.androidconnect.wifiutils.wifiConnect.ConnectionSuccessListener
+import com.androidconnect.wifiutils.wifiDisconnect.DisconnectionErrorCode
+import com.androidconnect.wifiutils.wifiDisconnect.DisconnectionSuccessListener
+import com.androidconnect.wifiutils.wifiRemove.RemoveErrorCode
+import com.androidconnect.wifiutils.wifiRemove.RemoveSuccessListener
 import java.net.InetSocketAddress
 import java.net.Socket
 import java.net.SocketAddress

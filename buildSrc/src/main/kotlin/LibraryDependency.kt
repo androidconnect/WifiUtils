@@ -40,7 +40,7 @@ object AppDependency {
     const val material = "com.google.android.material:material:${LibraryVersion.materialVersion}"
     const val kotlin = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${CoreVersion.KOTLIN}"
     const val kotlinReflect = "org.jetbrains.kotlin:kotlin-reflect:${CoreVersion.KOTLIN}"
-    //const val wifiUtilsOnMaven = "io.github.thanosfisherman.wifiutils:wifiutils:1.6.6"
+    //const val wifiUtilsOnMaven = "io.github.androidconnect.wifiutils:wifiutils:1.7.0"
 
 
     fun getAll() = AppDependency::class.memberProperties

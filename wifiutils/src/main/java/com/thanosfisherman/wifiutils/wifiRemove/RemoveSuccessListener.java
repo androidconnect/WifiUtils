@@ -1,4 +1,4 @@
-package com.thanosfisherman.wifiutils.wifiRemove;
+package com.androidconnect.wifiutils.wifiRemove;
 
 import androidx.annotation.NonNull;
 

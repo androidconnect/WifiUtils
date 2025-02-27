@@ -1,4 +1,4 @@
-package com.thanosfisherman.wifiutils;
+package com.androidconnect.wifiutils;
 
 /**
  * Author:  Minuit

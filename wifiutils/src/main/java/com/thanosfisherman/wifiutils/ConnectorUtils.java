@@ -1,14 +1,14 @@
-package com.thanosfisherman.wifiutils;
+package com.androidconnect.wifiutils;
 
 import static android.Manifest.permission.ACCESS_FINE_LOCATION;
 import static android.Manifest.permission.ACCESS_WIFI_STATE;
-import static com.thanosfisherman.wifiutils.WifiUtils.wifiLog;
-import static com.thanosfisherman.wifiutils.utils.Elvis.of;
-import static com.thanosfisherman.wifiutils.utils.SSIDUtils.convertToQuotedString;
-import static com.thanosfisherman.wifiutils.utils.VersionUtils.isAndroidQOrLater;
-import static com.thanosfisherman.wifiutils.utils.VersionUtils.isJellyBeanOrLater;
-import static com.thanosfisherman.wifiutils.utils.VersionUtils.isLollipopOrLater;
-import static com.thanosfisherman.wifiutils.utils.VersionUtils.isMarshmallowOrLater;
+import static com.androidconnect.wifiutils.WifiUtils.wifiLog;
+import static com.androidconnect.wifiutils.utils.Elvis.of;
+import static com.androidconnect.wifiutils.utils.SSIDUtils.convertToQuotedString;
+import static com.androidconnect.wifiutils.utils.VersionUtils.isAndroidQOrLater;
+import static com.androidconnect.wifiutils.utils.VersionUtils.isJellyBeanOrLater;
+import static com.androidconnect.wifiutils.utils.VersionUtils.isLollipopOrLater;
+import static com.androidconnect.wifiutils.utils.VersionUtils.isMarshmallowOrLater;
 
 import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
@@ -38,13 +38,13 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.annotation.RequiresPermission;
 
-import com.thanosfisherman.wifiutils.utils.SSIDUtils;
-import com.thanosfisherman.wifiutils.utils.VersionUtil;
-import com.thanosfisherman.wifiutils.utils.VersionUtils;
-import com.thanosfisherman.wifiutils.wifiConnect.ConnectionErrorCode;
-import com.thanosfisherman.wifiutils.wifiConnect.DisconnectCallbackHolder;
-import com.thanosfisherman.wifiutils.wifiConnect.WifiConnectionCallback;
-import com.thanosfisherman.wifiutils.wifiWps.ConnectionWpsListener;
+import com.androidconnect.wifiutils.utils.SSIDUtils;
+import com.androidconnect.wifiutils.utils.VersionUtil;
+import com.androidconnect.wifiutils.utils.VersionUtils;
+import com.androidconnect.wifiutils.wifiConnect.ConnectionErrorCode;
+import com.androidconnect.wifiutils.wifiConnect.DisconnectCallbackHolder;
+import com.androidconnect.wifiutils.wifiConnect.WifiConnectionCallback;
+import com.androidconnect.wifiutils.wifiWps.ConnectionWpsListener;
 
 import java.util.Collections;
 import java.util.List;
@@ -447,7 +447,7 @@ public final class ConnectorUtils {
                 connectivityManager.setNetworkPreference(ConnectivityManager.DEFAULT_NETWORK_PREFERENCE);
 
                 // On some Android 10 devices, connection is made and than immediately lost due to a firmware bug,
-                // read more here: https://github.com/ThanosFisherman/WifiUtils/issues/63.
+                // read more here: https://github.com/thanosfisherman/WifiUtils/issues/63.
                 handler.postDelayed(() -> {
                     if (isAlreadyConnected(wifiManager, of(scanResult).next(scanResult1 -> scanResult1.BSSID).get())) {
                         wifiConnectionCallback.successfulConnect();
@@ -528,7 +528,7 @@ public final class ConnectorUtils {
                 connectivityManager.setNetworkPreference(ConnectivityManager.DEFAULT_NETWORK_PREFERENCE);
 
                 // On some Android 10 devices, connection is made and than immediately lost due to a firmware bug,
-                // read more here: https://github.com/ThanosFisherman/WifiUtils/issues/63.
+                // read more here: https://github.com/thanosfisherman/WifiUtils/issues/63.
                 handler.postDelayed(() -> {
                     if (isAlreadyConnected(wifiManager, ssid)) {
                         wifiConnectionCallback.successfulConnect();

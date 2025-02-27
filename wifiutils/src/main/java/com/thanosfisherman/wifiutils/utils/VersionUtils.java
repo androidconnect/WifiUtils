@@ -1,4 +1,4 @@
-package com.thanosfisherman.wifiutils.utils;
+package com.androidconnect.wifiutils.utils;
 
 import android.os.Build;
 

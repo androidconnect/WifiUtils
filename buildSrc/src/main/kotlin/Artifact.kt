@@ -5,19 +5,19 @@ import kotlin.collections.LinkedHashMap
 object Artifact {
 
     val ARTIFACT_NAME = "wifiutils"
-    val ARTIFACT_GROUP = "io.github.thanosfisherman.wifiutils"
-    val VERSION_NAME = "1.6.6"
-    val VERSION_CODE = 23
-    val POM_URL = "https://github.com/ThanosFisherman/WifiUtils"
-    val POM_SCM_URL = "https://github.com/ThanosFisherman/WifiUtils"
-    val POM_SCM_CONNECTION = "scm:git:github.com/ThanosFisherman/WifiUtils.git"
-    val POM_SCM_DEV_CONNECTION = "scm:git:ssh://github.com/ThanosFisherman/WifiUtils.git"
-    val POM_ISSUE_URL = "https://github.com/ThanosFisherman/WifiUtils/issues"
+    val ARTIFACT_GROUP = "io.github.androidconnect.wifiutils"
+    val VERSION_NAME = "1.7.0"
+    val VERSION_CODE = 24
+    val POM_URL = "https://github.com/DrakshayaniBakka/WifiUtils"
+    val POM_SCM_URL = "https://github.com/DrakshayaniBakka/WifiUtils"
+    val POM_SCM_CONNECTION = "scm:git:github.com/DrakshayaniBakka/WifiUtils.git"
+    val POM_SCM_DEV_CONNECTION = "scm:git:ssh://github.com/DrakshayaniBakka/WifiUtils.git"
+    val POM_ISSUE_URL = "https://github.com/DrakshayaniBakka/WifiUtils/issues"
     val POM_DESC = "Library that makes it easy to Connect to WiFi hotspots using ssid and/or bssid"
 
     val BINTRAY_REPO = "maven"
     val BINTRAY_NAME = "wifiutils"   // Has to be same as your bintray project name
-    val GITHUB_REPO = "ThanosFisherman/WifiUtils"
+    val GITHUB_REPO = "DrakshayaniBakka/WifiUtils"
     val GITHUB_README = "README.md"
     val LIBRARY_NAME = "WifiUtils"
 
@@ -25,9 +25,9 @@ object Artifact {
     val POM_LICENSE_URL = "http://www.apache.org/licenses/LICENSE-2.0.txt"
     val POM_LICENSE_DIST = "http://www.apache.org/licenses/LICENSE-2.0.txt"
 
-    val POM_DEVELOPER_ID = "thanosfisherman"
-    val POM_DEVELOPER_NAME = "Thanos Psaridis"
-    val DEVELOPER_EMAIL = "psaridis@gmail.com"
+    val POM_DEVELOPER_ID = "DrakshayaniBakka"
+    val POM_DEVELOPER_NAME = "Drakshayani Bakka"
+    val DEVELOPER_EMAIL = "drakshayanibakka@gmail.com"
 
     val RELEASE_REPO_URL = "https://oss.sonatype.org/service/local/staging/deploy/maven2"
     val SNAPSHOT_REPO_URL = "https://oss.sonatype.org/content/repositories/snapshots"
