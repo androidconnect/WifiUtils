@@ -31,7 +31,7 @@ public enum ConnectionErrorCode {
     TIMEOUT_OCCURRED,
     /**
      * Firmware bugs on OnePlus prevent it from connecting on some firmware versions.
-     * More info: https://github.com/thanosfisherman/WifiUtils/issues/63
+     * More info: https://github.com/ThanosFisherman/WifiUtils/issues/63
      */
     ANDROID_10_IMMEDIATELY_DROPPED_CONNECTION,
     /**

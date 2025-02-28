@@ -447,7 +447,7 @@ public final class ConnectorUtils {
                 connectivityManager.setNetworkPreference(ConnectivityManager.DEFAULT_NETWORK_PREFERENCE);
 
                 // On some Android 10 devices, connection is made and than immediately lost due to a firmware bug,
-                // read more here: https://github.com/thanosfisherman/WifiUtils/issues/63.
+                // read more here: https://github.com/ThanosFisherman/WifiUtils/issues/63.
                 handler.postDelayed(() -> {
                     if (isAlreadyConnected(wifiManager, of(scanResult).next(scanResult1 -> scanResult1.BSSID).get())) {
                         wifiConnectionCallback.successfulConnect();
@@ -528,7 +528,7 @@ public final class ConnectorUtils {
                 connectivityManager.setNetworkPreference(ConnectivityManager.DEFAULT_NETWORK_PREFERENCE);
 
                 // On some Android 10 devices, connection is made and than immediately lost due to a firmware bug,
-                // read more here: https://github.com/thanosfisherman/WifiUtils/issues/63.
+                // read more here: https://github.com/ThanosFisherman/WifiUtils/issues/63.
                 handler.postDelayed(() -> {
                     if (isAlreadyConnected(wifiManager, ssid)) {
                         wifiConnectionCallback.successfulConnect();
