@@ -1,4 +1,4 @@
-package com.thanosfisherman.wifiutils.wifiConnect;
+package com.androidconnect.wifiutils.wifiConnect;
 
 /**
  * Errors that can occur when trying to connect to a wifi network.

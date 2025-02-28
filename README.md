@@ -26,7 +26,7 @@ Add the following to your **app module** `build.gradle` file
     
 ```kotlin
     dependencies {
-       implementation("io.github.thanosfisherman.wifiutils:wifiutils:1.6.6")
+       implementation("io.github.androidconnect.wifiutils:wifiutils:1.7.0")
     }
 ```
 

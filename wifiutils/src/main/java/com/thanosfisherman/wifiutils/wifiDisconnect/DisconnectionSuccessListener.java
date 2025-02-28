@@ -1,4 +1,4 @@
-package com.thanosfisherman.wifiutils.wifiDisconnect;
+package com.androidconnect.wifiutils.wifiDisconnect;
 
 import androidx.annotation.NonNull;
 

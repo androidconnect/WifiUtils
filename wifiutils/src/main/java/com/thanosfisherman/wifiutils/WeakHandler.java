@@ -22,7 +22,7 @@
  * shared by Android Open Source Project and used according to terms described in the
  * Apache License, Version 2.0
  */
-package com.thanosfisherman.wifiutils;
+package com.androidconnect.wifiutils;
 
 import android.os.Handler;
 import android.os.Looper;

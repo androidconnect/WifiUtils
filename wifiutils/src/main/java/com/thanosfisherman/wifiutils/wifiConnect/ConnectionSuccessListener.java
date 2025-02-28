@@ -1,4 +1,4 @@
-package com.thanosfisherman.wifiutils.wifiConnect;
+package com.androidconnect.wifiutils.wifiConnect;
 
 import androidx.annotation.NonNull;
 

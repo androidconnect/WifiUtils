@@ -1,4 +1,4 @@
-package com.thanosfisherman.wifiutils.wifiConnect;
+package com.androidconnect.wifiutils.wifiConnect;
 
 import android.net.ConnectivityManager;
 import android.net.Network;
@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import static com.thanosfisherman.wifiutils.WifiUtils.wifiLog;
+import static com.androidconnect.wifiutils.WifiUtils.wifiLog;
 
 /**
  * Singleton Class to keep references of {@link ConnectivityManager} and {@link ConnectivityManager.NetworkCallback}

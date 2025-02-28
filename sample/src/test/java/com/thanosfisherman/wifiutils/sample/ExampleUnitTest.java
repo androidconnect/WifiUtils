@@ -1,4 +1,4 @@
-package com.thanosfisherman.wifiutils.sample;
+package com.androidconnect.wifiutils.sample;
 
 import org.junit.Test;
 

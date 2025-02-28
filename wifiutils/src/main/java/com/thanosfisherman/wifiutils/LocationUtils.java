@@ -1,4 +1,4 @@
-package com.thanosfisherman.wifiutils;
+package com.androidconnect.wifiutils;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
@@ -7,7 +7,7 @@ import android.os.Build;
 import androidx.annotation.NonNull;
 import android.util.Log;
 
-import static com.thanosfisherman.wifiutils.utils.Elvis.of;
+import static com.androidconnect.wifiutils.utils.Elvis.of;
 
 public class LocationUtils {
     private static final String TAG = LocationUtils.class.getSimpleName();

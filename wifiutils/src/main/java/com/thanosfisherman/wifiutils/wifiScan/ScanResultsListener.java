@@ -1,4 +1,4 @@
-package com.thanosfisherman.wifiutils.wifiScan;
+package com.androidconnect.wifiutils.wifiScan;
 
 
 import android.net.wifi.ScanResult;

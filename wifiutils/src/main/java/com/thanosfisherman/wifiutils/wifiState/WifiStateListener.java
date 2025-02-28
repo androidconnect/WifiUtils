@@ -1,4 +1,4 @@
-package com.thanosfisherman.wifiutils.wifiState;
+package com.androidconnect.wifiutils.wifiState;
 
 public interface WifiStateListener {
     void isSuccess(boolean isSuccess);
