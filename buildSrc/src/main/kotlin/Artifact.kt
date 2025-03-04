@@ -8,16 +8,16 @@ object Artifact {
     val ARTIFACT_GROUP = "io.github.androidconnect.wifiutils"
     val VERSION_NAME = "1.7.0"
     val VERSION_CODE = 24
-    val POM_URL = "https://github.com/DrakshayaniBakka/WifiUtils"
-    val POM_SCM_URL = "https://github.com/DrakshayaniBakka/WifiUtils"
-    val POM_SCM_CONNECTION = "scm:git:github.com/DrakshayaniBakka/WifiUtils.git"
-    val POM_SCM_DEV_CONNECTION = "scm:git:ssh://github.com/DrakshayaniBakka/WifiUtils.git"
-    val POM_ISSUE_URL = "https://github.com/DrakshayaniBakka/WifiUtils/issues"
+    val POM_URL = "https://github.com/androidconnect/WifiUtils"
+    val POM_SCM_URL = "https://github.com/androidconnect/WifiUtils"
+    val POM_SCM_CONNECTION = "scm:git:github.com/androidconnect/WifiUtils.git"
+    val POM_SCM_DEV_CONNECTION = "scm:git:ssh://github.com/androidconnect/WifiUtils.git"
+    val POM_ISSUE_URL = "https://github.com/androidconnect/WifiUtils/issues"
     val POM_DESC = "Library that makes it easy to Connect to WiFi hotspots using ssid and/or bssid"
 
     val BINTRAY_REPO = "maven"
     val BINTRAY_NAME = "wifiutils"   // Has to be same as your bintray project name
-    val GITHUB_REPO = "DrakshayaniBakka/WifiUtils"
+    val GITHUB_REPO = "androidconnect/WifiUtils"
     val GITHUB_README = "README.md"
     val LIBRARY_NAME = "WifiUtils"
 
