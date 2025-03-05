@@ -29,8 +29,8 @@ object Artifact {
     val POM_DEVELOPER_NAME = "Drakshayani Bakka"
     val DEVELOPER_EMAIL = "drakshayanibakka@gmail.com"
 
-    val RELEASE_REPO_URL = "https://oss.sonatype.org/service/local/staging/deploy/maven2"
-    val SNAPSHOT_REPO_URL = "https://oss.sonatype.org/content/repositories/snapshots"
+    val RELEASE_REPO_URL = "https://s01.oss.sonatype.org/service/local/staging/deploy/maven2"
+    val SNAPSHOT_REPO_URL = "https://s01.oss.sonatype.org/content/repositories/snapshots/"
     val REPO_NAME = "sonatype"
 }
 
