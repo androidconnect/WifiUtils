@@ -104,12 +104,7 @@ afterEvaluate {
                 version = Artifact.VERSION_NAME
 
                 if (project.plugins.findPlugin("com.android.library") != null) {
-                    val buildType = if (project.gradle.startParameter.taskNames.any { it.contains("Release") }) {
-                        "release"
-                    } else {
-                        "debug"
-                    }
-                    artifact("$buildDir/outputs/aar/${project.name}-$buildType.aar")
+                    artifact("$buildDir/outputs/aar/${project.name}-release.aar")
                 } else {
                     from(components["java"])
                     //artifact("$buildDir/libs/${project.getName()}-${version}.jar")
