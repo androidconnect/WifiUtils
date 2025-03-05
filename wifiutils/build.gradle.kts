@@ -89,6 +89,14 @@ credentialsMap.forEach { extra.set(it.key, it.value) }
 
 afterEvaluate {
     publishing {
+        repositories {
+            maven {
+                credentials {
+                    username = credentialsMap["ossrhUsername"]
+                    password = credentialsMap["ossrhPassword"]
+                }
+            }
+        }
         publications {
             create<MavenPublication>(Artifact.ARTIFACT_NAME) {
                 groupId = Artifact.ARTIFACT_GROUP
@@ -134,7 +142,7 @@ afterEvaluate {
                         developerConnection.set(Artifact.POM_SCM_DEV_CONNECTION)
                         url.set(Artifact.POM_SCM_URL)
                     }
-                    repositories {
+                    /*repositories {
                         maven {
                             // change URLs to point to your repos, e.g. http://my.org/repo
                             val releasesRepoUrl = uri(Artifact.RELEASE_REPO_URL)
@@ -148,7 +156,7 @@ afterEvaluate {
                                 password = credentialsMap["ossrhPassword"]
                             }
                         }
-                    }
+                    }*/
 
                     //  hack if you wanna include any transitive dependencies. I'm a hackur indeed
                     /*            withXml {
